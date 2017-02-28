@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin:0;
+  padding-top: 10px;
+  font-family: 'Slabo 27px', serif;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+
+#products {
+  display: flex;
+}
+
+.header {
+  text-align: center;
+}
+
+img.mylogo {
+  display: block;
+  width: 20%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.nav {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 50px;
+}  
+
+.nav a {
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  color: black;
+  padding-top: 0.4em;
+  font-size: 22px;
+}  
+
+.allprodcuts {
+  display: flex;
+  flex-direction: row;
+}
+
+.pepe {
+  height: 550px;
+  overflow: hidden;
+}
+
+.pepehomepage {
+  height: 300px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+a.pepehomepage {
+  color: black;
+  text-align: center;
+}
+
+a.pepehomepage:hover {
+  text-decoration: none;
+}
+
+.best {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.home-layout {
+  display: flex;
+}
+
+.products-top {
+  text-align: center;
+  padding: 0.6em;
+  color: black;
+  font-size: 21px;
+}
+
+ul.toptop {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.toptop > li {
+  float: left;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.myinforpicture {
+  float: left;
+  width: 600px;
+  height: auto;
+  padding-bottom: 35px;
+
+  margin-right: 20px;
+}
+
+.information {
+  float: left;
+  padding-bottom: 20px;
+}
+
+.categories-ul {
+  margin:0;
+  padding:0;
+  padding-bottom: 80px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.categories-ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.categories-ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.caption {
+  top: 0;
+  right: 40%; 
+}
+
+
+
+.center {
+  text-align: center;
+}
+
+.mypicture {
+  width: 100%;
+  height: auto;
+  padding-right: 8px;
+}
+
+.mypicture2 {
+  height: 50px;
+}
+
+img.cart {
+  height: 50px;
+  align: right;
+  bottom: 0;
+  left: 50%;
+}
+
+.footer {
+  padding-top: 5px;
+  text-align: right;
+  font-size: 16px;
+}
+
+.footerli li {
+  list-style: none;
+}
+
+input.button.submit {
+  background-color: green;
+  color: white;
+}
+
+
